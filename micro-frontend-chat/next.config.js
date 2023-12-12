@@ -19,7 +19,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./luigi": "./components/luigi",
+        "./chat": "./components/chat",
       },
     };
     config.cache = false;

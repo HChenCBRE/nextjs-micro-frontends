@@ -1,0 +1,126 @@
+.main {
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' #003F2D,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.container {
+  width: 448px;
+  height: 679px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 15px;
+  color: #003f2d;
+  background-color: #FFF;
+}
+
+.flex {
+  display: flex;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.dividerBottom {
+  width: calc(100% + 24px);
+  margin-left: -12px;
+  height: 0px;
+  border-bottom: 1px solid rgb(0,63,45,.08);
+  margin-top: 12px;
+}
+
+.divider {
+  width: calc(100% + 24px);
+  margin-left: -12px;
+  height: 0px;
+  border-bottom: 1px solid rgb(0,63,45,.08);
+}
+
+.main {
+  height:489px;
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(0,63,45,.08);
+  border-radius: 4px;
+  border: 0px;
+  justify-content: center;
+  display: flex;
+}
+.buttonText {
+  margin-top: 5px;
+}
+
+.bottomDiv {
+  background-color: rgb(0,63,45,.08);
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  height: 138px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 12px;
+}
+
+.bottomButton {
+  padding: 10.5px 12px 11px 12px;
+  background-color: rgb(0,63,45,.15);
+  border: none;
+  margin-right: 5px;
+  color: rgb(0,63,45);
+  margin-top: -2px;
+}
+.bottomButton2 {
+  padding: 12px;
+  background-color: rgb(0,63,45,.15);
+  border: none;
+  margin-right: 5px;
+  color: rgb(0,63,45);
+}
+
+.buttonTextBot {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.buttonMain {
+  background-color: rgb(0,63,45);
+  float: right;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.inputBox{
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+}

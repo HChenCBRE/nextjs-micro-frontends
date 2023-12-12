@@ -19,7 +19,7 @@ module.exports = {
       remotes: {
       },
       exposes: {
-        "./mario": "./components/mario",
+        "./prompts": "./components/prompts",
       },
     };
     config.cache = false;
